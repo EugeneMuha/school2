@@ -6,6 +6,8 @@ h6{
 body{
 	background-color: #FF4BBD;
 }
-=======
-*{margin: 0; padding:0;}
->>>>>>> 09a8bcd4b2110ecd6df60725243d6c2e17bf2a63
+
+*{
+	margin: 0; padding:0;
+}
+
