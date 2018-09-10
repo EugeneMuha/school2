@@ -7,24 +7,10 @@
 body{
 	background-image: url(images/bg.png);
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 .wrapper{
 	width: 1280px;
+	height: 1300px;
 	margin: 0 auto;
 	background-color: #fff;
 }
-=======
-.wrapper{width: 1280px;
-=======
-.wrapper{width: 1280px;
-	height: 800px;
->>>>>>> d3c2db87f81e66ed61725df13ebc8fbd56d39de0
-=======
-.wrapper{width: 1280px;
-	height: 800px;
->>>>>>> d3c2db87f81e66ed61725df13ebc8fbd56d39de0
-margin: 0 auto;
-background-color: white;}
->>>>>>> 7022534031a9c59e69db78d454a76fda8d67369b
