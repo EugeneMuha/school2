@@ -16,9 +16,16 @@ body{
 	box-shadow: 0px 1px 20px #000;
 }
 
-.img-house{
+/*.img-house{
 	position: absolute;
 	z-index: -9999;
 	bottom: 0;
 	right: 0;
+}*/
+.gerb-container{
+	width: 260px;
+	height: 260px;
+	padding: 20px;
 }
+.gerb{	border-radius: 80px;
+box-shadow: 0px 0px 8px #000;}
