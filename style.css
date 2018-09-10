@@ -8,5 +8,6 @@ body{
 	background-image: url(images/bg.png);
 }
 .wrapper{width: 1280px;
+	height: 800px;
 margin: 0 auto;
 background-color: white;}
