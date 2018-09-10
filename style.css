@@ -11,7 +11,13 @@ body{
 }
 
 header{
-	background-color:white;
+	background-color: #000;
 	width: 100%;
 	height: 200px;
+	color: #fff;
+	text-align: center;
+}
+
+h1{
+	padding-top: 4%;
 }
