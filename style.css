@@ -13,4 +13,5 @@ body{
 	height: 1300px;
 	margin: 0 auto;
 	background-color: #fff;
+	box-shadow: 2px 2px 20px #000;
 }
