@@ -7,3 +7,6 @@
 body{
 	background-image: url(images/bg.png);
 }
+.wrapper{width: 1280;
+margin: 0 auto;
+background-color: white;}
