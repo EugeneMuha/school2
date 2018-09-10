@@ -1,0 +1,17 @@
+h6{
+	color: red;
+}
+
+body{
+	background-color: #FFA5CE;
+}
+
+*{
+	margin: 0; padding:0;
+}
+
+header{
+	background-color: #000;
+	width: 100%;
+	height: 200px;
+}
