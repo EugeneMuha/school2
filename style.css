@@ -117,7 +117,6 @@ aside{
 	max-height: 280px;
 	background-color: #61c0de;
 	border-radius: 15px;
-	padding-bottom: 20px;
 }
 
 .side-text{
@@ -141,6 +140,7 @@ aside{
 
 .side-list{
 	list-style: none;
+	display: none;
 }
 
 .side-link{
@@ -158,3 +158,8 @@ aside{
 	border: 1px solid white;
 }
 
+.side-text:active ~ .side-list,
+.side-text:focus ~ .side-list,
+.side-list:hover{
+	display: block;
+}
