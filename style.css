@@ -27,7 +27,7 @@ body{
 
 .gerb-container{
 	width: 260px;
-	height: 282px;
+	height: 232px;  /*тут нужно настроить размеры. Я вчера минут 5 потратил, чтобы понять почему у меня сайдбар смещается в право , и весь сайт ломается. Не превышай больше размеры елемента в 324px, если блок для него 300px !!!!!!! :)*/
 	padding: 20px;
 	margin: 1.5%;
 	float: left;
@@ -111,14 +111,13 @@ header{
 aside{
 	width: 350px;
 	height: 600px;
+	padding-top: 20px;
 	float: left;
-	margin-top: 3%;
-	position: absolute;
 }
 
 .sidebar-container{
 	width: 330px;
-	height: 1480px;
+	height: 600px;
 	padding-left: 20px;
 	list-style: none;
 	display: list-style-type: ;
@@ -141,11 +140,11 @@ aside{
 	background-color: #61c0de;
 	color: white;
 	padding: 30px 40px;
-	display: list-item;
+	display: list-item; /*Важная штука для кнопок одного размера!*/
 }
 
-.side-text:active,
-.side-text:focus,
+.side-text:active,    /*цвет во-время активации*/
+.side-text:focus,      /*цвет после активации*/
 .side-text:hover{
 	background-color: #90b7c5;
 }
@@ -171,7 +170,18 @@ aside{
 }
 
 .side-text:active ~ .side-list,
-.side-text:focus ~ .side-list, /*что бы не зажимать active*/
+.side-text:focus ~ .side-list, /*Фокусировка на елементе . То есть, что будет после нажатия. Обычно используют в связке с active*/
 .side-list:hover{
 	display: block;
+}
+
+.slider-container{
+	width: 840px;
+	height: 420px;
+	background-color: white;
+	float: right;
+}
+
+.slider-position{
+	padding: 20px 80px 0 0;
 }

@@ -35,7 +35,7 @@
 				<div class="sidebar-container">
 					<div class="sidebar-block">
 					<div class="sidebar">
-						<a href="#" class="side-text">
+						<a href="#" class="side-text" onclick="return false">  	<!-- Обработчик ссылки возвращает значение false. В браузере по умолчанию стоит true, если поставить false, то не будет перехода НА ссылку, а после по ссылке. -->
 							Освітній процесс
 						</a>
 						<ul class="side-list" tabindex="1">
@@ -48,7 +48,7 @@
 					</div>
 					<div class="sidebar-block">
 					<div class="sidebar">
-						<a href="#" class="side-text">
+						<a href="#" class="side-text" onclick="return false">
 							Більше ніж знання
 						</a>
 						<ul class="side-list" tabindex="1">
@@ -61,7 +61,7 @@
 					</div>
 					<div class="sidebar-block">
 					<div class="sidebar">
-						<a href="#" class="side-text">Спортивні гуртки</a>
+						<a href="#" class="side-text" onclick="return false">Спортивні гуртки</a>
 						<ul class="side-list" tabindex="1">
 							<li><a href="#" class="side-link">Баскетбол</a></li>
 							<li><a href="#" class="side-link">Дзюдо</a></li>
@@ -72,7 +72,7 @@
 					</div>
 					<div class="sidebar-block">
 					<div class="sidebar">
-						<a href="#" class="side-text">Куток для учнів</a>
+						<a href="#" class="side-text" onclick="return false">Куток для учнів</a>
 						<ul class="side-list" tabindex="1">
 							<li><a href="#" class="side-link">Електронні книги</a></li>
 							<li><a href="#" class="side-link">Рекомендації від вчителів</a></li>
@@ -83,6 +83,12 @@
 					</div>
 				</div>
 			</aside>
+
+			<div class="slider-position">
+			<div class="slider-container">
+				Слайдер
+			</div>
+		</div>
 		</div>
 	</body>
 </html>
