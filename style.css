@@ -11,7 +11,7 @@ body{
 
 .wrapper{
 	width: 1280px;
-	height: 1300px;
+	height: 1600px;
 	margin: 0 auto;
 	background-color: rgba(246,244,223, 0.85);
 	box-shadow: 0px 1px 20px #000;
@@ -106,43 +106,55 @@ aside{
 
 .sidebar-container{
 	width: 330px;
+	height: 1480px;
 	padding-left: 20px;
-	display: flex;
-	flex-direction: column;
+	list-style: none;
+	display: list-style-type: ;
 }
-
+.sidebar-block{padding-bottom: 20px;}
 .sidebar{
-	width: 301px;
-	height: 230px;
+	width: 260px;
+	max-height: 280px;
 	background-color: #61c0de;
-	color: white;
+	border-radius: 15px;
+	padding-bottom: 20px;
 }
 
 .side-text{
-	width: 330px;
-	text-align: center;
-	height: 100px;
+	width: 260px;
+	height: 90px;
 	border-radius: 15px;
 	text-decoration: none;
 	user-select: none;
-	font-size: 26px;
-	background-color: #90b7c5;
-	/*background-color: #61c0de;*/
+	font-size: 22px;
+	background-color: #61c0de;
 	color: white;
+	padding: 30px 40px;
+	display: list-item;
 }
 
-	.first-point{
-		padding: 20px 54px;
-	}
-	.second-point{
-		padding: 20px 46px;
-	}
-	.third-point{
-		padding: 20px 48px;
-	}
-	.fourth-point{
-		padding: 20px 56px;
-	}
-	.side-list{
-		padding-top: 30px;
-	}
+.side-text:active,
+.side-text:focus,
+.side-text:hover{
+	background-color: #90b7c5;
+}
+
+.side-list{
+	list-style: none;
+}
+
+.side-link{
+	display: list-item;
+	width: 260px;
+	height: 40px;
+	text-decoration: none;
+	user-select: none;
+	font-size: 18px;
+	color: white;
+	padding:6px 25px;
+}
+
+.side-link:hover{
+	border: 1px solid white;
+}
+
