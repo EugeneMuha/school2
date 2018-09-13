@@ -18,12 +18,15 @@ body{
 	position: relative;
 }
 
-/*.img-house{
-	position: absolute;
-	z-index: -9999;
+/*Домики*/
+
+.house1{
+	position: fixed;
+	z-index: -1;
 	bottom: 0;
-	right: 0;
-}*/
+	left: 0;
+}
+
 
 /*.gerb-container{
 	width: 260px;
