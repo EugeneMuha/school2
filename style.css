@@ -188,7 +188,7 @@ aside{
 	list-style: none;
 	display: list-style-type ;
 }
-.sidebar-block{padding-bottom: 20px;}
+.sidebar-block{padding-bottom: 23px;}
 .sidebar{
 	width: 260px;
 	max-height: 280px;
@@ -285,10 +285,10 @@ article img{ /*размер изображений слайдера*/
 	background: url(images/left-arrow.png) no-repeat; 
 	background-size: cover;
 	float: left;
-	margin: -200px 0 0 -70px; /*сдвиг влево*/
+	margin: -130px 0 0 -60px; /*сдвиг влево*/
 	display: block;
-	height: 400px;
-	width: 70px;
+	height: 250px;
+	width: 50px;
 }
 
 /*настройка переключения и положения для правой стрелки*/
@@ -300,10 +300,10 @@ article img{ /*размер изображений слайдера*/
 	background: url(images/right-arrow.png) no-repeat; 
 	background-size: cover;
 	float: right;
-	margin: -200px -70px 0 0; /*сдвиг вправо*/
+	margin: -130px -60px 0 0; /*сдвиг вправо*/
 	display: block;
-	height: 400px;
-	width: 70px;
+	height: 250px;
+	width: 50px;
 }
 
 label, a{ /*при наведении на стрелки или переключатели - курсор изменится*/
