@@ -435,23 +435,16 @@ main{
 footer{
 	width: 100%;
 	height: 230px;
-	background-color: #61C0AC;
+	background-color: #61C0DE;
 	padding: 10px;
-	box-shadow: 0px -8px 20px #000;
-	position: relative;
+	/*box-shadow: 0px -8px 20px #000;*/
 }
 
 .inner-footer{
 	width: 100%;
-	height: 190px;
-	
-}
-
-.logo{
-	width: 25%;
-	height: 70px;
-	background-color: #619AB8;
-	display: flex;
-	justify-content: center;
-	position: absolute;
+	height: 210px;
+	position: relative;
+	background-color: transparent;
+	box-shadow: 0px 0px 30px 7px #000;
+	border-radius: 6px;
 }
