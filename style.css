@@ -175,7 +175,7 @@ header{
 /*Сайдбар*/
 
 aside{
-	width: 350px;
+	width: 300px;
 	height: 600px;
 	padding-top: 20px;
 	float: left;
@@ -386,19 +386,21 @@ main{
 	width: 100%;
 	height: 1128px;
 	padding-top: 460px;
+	padding-right: 40px;
 }
 
 .news-container{
-	width: 850px;
+	float: right;
+
+	width: 920px;
 	height: 620px;
 	border-radius: 20px;
 	background: url(images/main-bg.png);
-	background-size: cover; 
 	display: flex;
 }
 
 .main-news{
-	width: 98%;
+	width: 900px;
 	height: 600px;
 	padding-top: 20px;
 	overflow: scroll;
@@ -409,20 +411,31 @@ main{
 
 /*Это протсо для теста, не обращай внимания*/
 
-.try1{
+.blog-blocks{
 	margin:0 auto;
-	width: 86%;
-	height: 300px;
-	background: gold;
+	width: 840px;
+	height: auto;
+	background-image: url(images/border-post.png);
+	background-size: cover;
 }
-
-.try2{
-	margin:0 auto;
-	width: 86%;
-	background: black;
-	height: 300px;
+.blog-post-container{
+	width: 800px;
+	min-height: 200px;
+	background-image: url(images/border-post.png);
+	background-size: cover;
+	background-color: #61c0de;
 }
-
+.blog-post-inner h1{
+	 display: table;
+  width: auto;
+  margin: 0 auto;
+  padding: 15px;
+  letter-spacing: 2px;
+  background: #61c0de;
+  border: 2px dotted white;
+  color: white;
+  box-shadow: 0 0 0 4px #cbdcea;
+}
 /*футер*/
 
 .footer{
